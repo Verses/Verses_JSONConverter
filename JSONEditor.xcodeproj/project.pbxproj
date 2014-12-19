@@ -13,6 +13,10 @@
 		D37EED941A0E864400D66500 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D37EED931A0E864400D66500 /* Images.xcassets */; };
 		D37EED971A0E864400D66500 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D37EED951A0E864400D66500 /* Main.storyboard */; };
 		D37EEDA31A0E864400D66500 /* JSONEditorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D37EEDA21A0E864400D66500 /* JSONEditorTests.m */; };
+		D37EEDAD1A0E86D800D66500 /* NIV.json in Resources */ = {isa = PBXBuildFile; fileRef = D37EEDAC1A0E86D800D66500 /* NIV.json */; };
+		D37EEDB11A0E9F4000D66500 /* NLT.json in Resources */ = {isa = PBXBuildFile; fileRef = D37EEDAE1A0E9F4000D66500 /* NLT.json */; };
+		D37EEDB21A0E9F4000D66500 /* MSG.json in Resources */ = {isa = PBXBuildFile; fileRef = D37EEDAF1A0E9F4000D66500 /* MSG.json */; };
+		D37EEDB31A0E9F4000D66500 /* ESV.json in Resources */ = {isa = PBXBuildFile; fileRef = D37EEDB01A0E9F4000D66500 /* ESV.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,10 @@
 		D37EED9C1A0E864400D66500 /* JSONEditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONEditorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D37EEDA11A0E864400D66500 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D37EEDA21A0E864400D66500 /* JSONEditorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONEditorTests.m; sourceTree = "<group>"; };
+		D37EEDAC1A0E86D800D66500 /* NIV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NIV.json; sourceTree = "<group>"; };
+		D37EEDAE1A0E9F4000D66500 /* NLT.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NLT.json; sourceTree = "<group>"; };
+		D37EEDAF1A0E9F4000D66500 /* MSG.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MSG.json; sourceTree = "<group>"; };
+		D37EEDB01A0E9F4000D66500 /* ESV.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ESV.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +91,10 @@
 				D37EED8C1A0E864400D66500 /* AppDelegate.m */,
 				D37EED901A0E864400D66500 /* ViewController.h */,
 				D37EED911A0E864400D66500 /* ViewController.m */,
+				D37EEDAC1A0E86D800D66500 /* NIV.json */,
+				D37EEDAE1A0E9F4000D66500 /* NLT.json */,
+				D37EEDAF1A0E9F4000D66500 /* MSG.json */,
+				D37EEDB01A0E9F4000D66500 /* ESV.json */,
 				D37EED931A0E864400D66500 /* Images.xcassets */,
 				D37EED951A0E864400D66500 /* Main.storyboard */,
 				D37EED891A0E864400D66500 /* Supporting Files */,
@@ -196,8 +208,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D37EEDB31A0E9F4000D66500 /* ESV.json in Resources */,
+				D37EEDAD1A0E86D800D66500 /* NIV.json in Resources */,
 				D37EED941A0E864400D66500 /* Images.xcassets in Resources */,
+				D37EEDB11A0E9F4000D66500 /* NLT.json in Resources */,
 				D37EED971A0E864400D66500 /* Main.storyboard in Resources */,
+				D37EEDB21A0E9F4000D66500 /* MSG.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +420,7 @@
 				D37EEDA81A0E864400D66500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D37EEDA91A0E864400D66500 /* Build configuration list for PBXNativeTarget "JSONEditorTests" */ = {
 			isa = XCConfigurationList;
@@ -412,6 +429,7 @@
 				D37EEDAB1A0E864400D66500 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
